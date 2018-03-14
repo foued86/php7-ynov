@@ -9,6 +9,13 @@ if ($captainAlive == true) {
     print "Il est mort 😱\n";
 }
 
+// operateur ternaire
+// le code ci-dessus équivaut à :
+print ($captainAlive) ? 'Il est en vie' : 'Il est mort';
+
+$captainAge = 15;
+$captainIsMinor = ($captainAge < 18) ? true : false;
+
 // point d'exclamation = "non logique"
 // inversion d'un boolean true -> false, false -> true
 if (!$captainAlive) {
