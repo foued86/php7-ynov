@@ -1,4 +1,5 @@
 ======
+Types scalaires 👌
 ======
 
 <?php
@@ -25,6 +26,7 @@ var_dump($captainDead);
 var_dump($captainStats);
 
 ?>
+
 =====
 Vérification des types
 =====
@@ -61,8 +63,8 @@ var_dump($captainAge);
 ====
 LES CONSTANTES
 ====
+
 <?php
-:fl
 // définition d'une constante
 define('PIRATE_FLAG', '💀');
 
