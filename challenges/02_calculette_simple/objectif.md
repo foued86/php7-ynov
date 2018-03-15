@@ -11,7 +11,7 @@ L'objectif est de créer une calculette très simple dans un script php.
 
 Le script doit être envoyé sur github dans votre dossier workspace, dans un dossier `challenges/02_calculette_simple/calculette_simple.php`.
 
-En appelant le script avec des [arguments](../../01-les-bases-de-php/09_arguments_de_script.php), on doit pouvoir afficher le résultat d'un calcul simple, par exemple `php calculette_simple.php 5 + 3` doit afficher 7.
+En appelant le script avec des [arguments](../../01-les-bases-de-php/09_arguments_de_script.php), on doit pouvoir afficher le résultat d'un calcul simple, par exemple `php calculette_simple.php 5 + 3` doit afficher 8.
 
 Autres exemples d'arguments :
 
