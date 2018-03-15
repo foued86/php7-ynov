@@ -18,7 +18,6 @@ Autres exemples d'arguments :
 * `php calculette_simple.php 5 - 3` 2
 * `php calculette_simple.php 5 x 3` 15
 * `php calculette_simple.php 5 / 3` 1.666666 etc.
-* `php calculette_simple.php 5 / 3`
 
 (bien sûr, il faut que ça marche avec d'autres chiffres, et aussi des chiffres à virgules `php calculette_simple.php 2.4 x 10` doit afficher 24).
 
