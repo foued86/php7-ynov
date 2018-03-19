@@ -16,6 +16,14 @@ Support de cours et challenges pour le cours PHP7 pour les B1 d'YNOV.
 * [08 - Les switch](./cours/08_conditions_switch.php)
 * [09 - Les arguments de script](./cours/09_arguments_de_script.php)
 
+### Deuxième jour : allons plus loin avec PHP
+
+* [10 - Les opérateurs logique](./cours/10_operateurs_logiques.php)
+* [11 - Les tableaux](./cours/11_tableaux.php)
+* [12 - Les boucles](./cours/12_boucles.php)
+* [13 - Les chaines de caractère](./cours/13_chaines_de_caracteres.php)
+* [14 - Les fonctions](./cours/14_fonctions.php)
+
 ## Challenges
 
 Chaque challenge doit être envoyé sur github dans votre workspace, dans un dossier spécifique (ex : le dossier `challenges/01_la_fin_du_capitaine` contiendra votre script avec la solution `la_fin_du_capitaine.php`).
