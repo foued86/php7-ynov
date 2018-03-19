@@ -4,7 +4,17 @@ Support de cours et challenges pour le cours PHP7 pour les B1 d'YNOV.
 
 ## Support de cours
 
-* Premier jour : [les bases de php](./01-les-bases-de-php)
+### Premier jour : les bases de PHP
+
+* [01 - Anatomie d'un fichier PHP](./cours/01_hello_world.php)
+* [02 - Les commentaires](./cours/02_commentaires.php)
+* [03 - Variables et constantes](./cours/03_variables_instanciation.php)
+* [04 - Types de variable](./cours/04_variables_types.php)
+* [05 - Transtypage](./cours/05_transtypage.php)
+* [06 - Les opérateurs](./cours/06_operateurs.php)
+* [07 - Les conditions](./cours/07_conditions_if_else_elseif.php)
+* [08 - Les switch](./cours/08_conditions_switch.php)
+* [09 - Les arguments de script](./cours/09_arguments_de_script.php)
 
 ## Challenges
 

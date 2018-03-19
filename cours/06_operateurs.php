@@ -66,6 +66,8 @@ $exposant = 2 ** 3; // 8
 $modulo = 12 % 3; // 0, correspond au reste de la division de 12 / 3, puisque 12 = (3 * 4) + 0
 $modulo = 12 % 5; // 2, correspond au reste de la division de 12 / 7, pusique 12 = (5 * 2) + 2
 
+$combo = 12 - (4 + 5) * 10; // on peut combiner / grouper des opérateurs mathématiques
+
 ?>
 
 On peut combiner l'opérateur d'affectation = avec une opération mathématique.
