@@ -1,3 +1,9 @@
+<?php
+    // la variable $_GET contient des variables passées par url
+    // exemple: http://127.0.0.1:8000/cours/16_http/03_get/index.php?firstname=Obiwan&lastname=Kenobi
+    var_dump($_GET);
+?>
+
 <!doctype html>
 <html lang="en">
 <head>
@@ -15,12 +21,15 @@
     <main role="main">
         <div class="jumbotron">
             <div class="container">
-                <h1 class="display-3">Jumbotron</h1>
+                <h1 class="display-3">Salut <?= $_GET['firstname'] ?> <?= $_GET['lastname']; ?> !</h1>
                 <p style="font-size: 2em;">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    Pour envoyer des arguments au script, on passe par les variables $_GET en url
+                </p>
+                <p>
+                    Exemple : <a href="/cours/16_http/03_get/index.php?firstname=gabriel&lastname=pillet">/cours/16_http/03_get/index.php?firstname=gabriel&lastname=pillet</a>.
                 </p>
                 
-                <p><a href="#" class="btn btn-primary btn-lg" role="button">Button</a></p>
+                <p><a href="/cours/16_http/03_get/index.php?firstname=Dark&lastname=Vador" class="btn btn-primary btn-lg" role="button">Dark Vador</a></p>
             </div>
         </div>
     </main>
