@@ -29,7 +29,7 @@
     
     <main role="main" class="container">
         <div class="starter-template">
-            <h1>Connection</h1>
+            <h1>Connexion</h1>
             <p class="lead"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi.</p>
         </div>    
     </main>
