@@ -1,7 +1,6 @@
 <?php
     require_once(__DIR__.'/functions/insultron.php');
 ?>
-
 <!doctype html>
 <html lang="en">
   <head>
@@ -19,11 +18,8 @@
     <!-- Custom styles for this template -->
     <link href="jumbotron.css" rel="stylesheet">
   </head>
-
   <body>
-
     <main role="main">
-
       <!-- Main jumbotron for a primary marketing message or call to action -->
       <div class="jumbotron">
         <div class="container">
