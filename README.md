@@ -24,6 +24,8 @@ Support de cours et challenges pour le cours PHP7 pour les B1 d'YNOV.
 * [13 - Les chaines de caractère](./cours/13_chaines_de_caracteres.php)
 * [14 - Les fonctions](./cours/14_fonctions.php)
 
+### Troisième jour : sites web simples avec PHP
+
 ## Challenges
 
 Chaque challenge doit être envoyé sur github dans votre workspace, dans un dossier spécifique (ex : le dossier `challenges/01_la_fin_du_capitaine` contiendra votre script avec la solution `la_fin_du_capitaine.php`).

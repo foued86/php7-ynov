@@ -1,4 +1,3 @@
-
 <!doctype html>
 <html lang="en">
 <head>
@@ -22,9 +21,7 @@
         }
     </style>
 </head>
-
 <body>
-    
     <?php include('navigation.php'); ?>
     
     <main role="main" class="container">
