@@ -2,6 +2,16 @@
     // la variable $_GET contient des variables passées par url
     // exemple: http://127.0.0.1:8000/cours/16_http/03_get/index.php?firstname=Obiwan&lastname=Kenobi
     var_dump($_GET);
+    
+    $firstname = 'Toto';
+    if (isset($_GET['firstname'])) {
+        $firstname = $_GET['firstname'];
+    }
+    
+    $lastname = 'Tutu';
+    if (isset($_GET['lastname'])) {
+        $lastname = $_GET['lastname'];
+    }
 ?>
 
 <!doctype html>
@@ -12,7 +22,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
     
-    <title>Jumbotron Template for Bootstrap</title>
+    <title>Variables $_GET</title>
     
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
@@ -21,7 +31,7 @@
     <main role="main">
         <div class="jumbotron">
             <div class="container">
-                <h1 class="display-3">Salut <?= $_GET['firstname'] ?> <?= $_GET['lastname']; ?> !</h1>
+                <h1 class="display-3">Salut <?= $firstname ?> <?= $lastname; ?> !</h1>
                 <p style="font-size: 2em;">
                     Pour envoyer des arguments au script, on passe par les variables $_GET en url
                 </p>
