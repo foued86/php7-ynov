@@ -1,4 +1,6 @@
 <?php
+    $projectDirectory = __DIR__;
+
     require_once(__DIR__.'/functions/insultron.php');
 ?>
 <!doctype html>

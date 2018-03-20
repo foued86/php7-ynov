@@ -1,12 +1,14 @@
 <?php
 
-require_once(__DIR__.'/array_rand.php');
+require_once($projectDirectory.'/functions/array_rand.php');
 
 function insultron() {
-    $adjectives1 = arrayRand(require(__DIR__.'/../data/adjectives.php'));
-    $adjectives2 = arrayRand(require(__DIR__.'/../data/adjectives.php'));
-    $animal = arrayRand(require(__DIR__.'/../data/animals.php'));
-    $emoji = arrayRand(require(__DIR__.'/../data/emojis.php'));
+    global $projectDirectory;
+    
+    $adjectives1 = arrayRand(require($projectDirectory.'/data/adjectives.php'));
+    $adjectives2 = arrayRand(require($projectDirectory.'/data/adjectives.php'));
+    $animal = arrayRand(require($projectDirectory.'/data/animals.php'));
+    $emoji = arrayRand(require($projectDirectory.'/data/emojis.php'));
 
     return sprintf(
         "Tu es %s comme un %s %s ! %s\n",
