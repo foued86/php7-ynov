@@ -4,6 +4,7 @@
 
 * [Objectif](#objectif)
 * [Comment faire ?](#comment-faire-)
+* [Fonctions utiles](#fonctions-utiles)
 * [Les données](#les-données)
 * [Les pages à réaliser](#les-pages-à-réaliser)
     * [La page d'accueil](#la-page-accueil)
@@ -39,6 +40,17 @@ Pour vous l'objectif est de réaliser le code PHP qui "dynamisera" les templates
 5 - Puis vous devrez récupérer les données, et faire des opérations PHP pour les afficher au bon endroit.
 
 6 - Si vous utilisez des `fonctions PHP` ou du code PHP que vous récupérerez avec `require_once` **VOUS DEVEZ** le mettre dans le dossier `challenges/06_alphaseries/src` **ET SURTOUT PAS** au même endroits que les fichiers de page PHP, il ne doit y avoir **QUE LES QUATRES FICHIERS DE PAGES PHP** dans le dossier `challenges/06_alphaseries`, tout le reste doit être classé proprement dans des sous-dossiers.
+
+## Fonctions utiles
+
+Vous pourrez avoir besoin des fonctions suivantes :
+
+* [usort()](http://php.net/manual/fr/function.usort.php) : pour trier un tableau avec différents critères.
+* [array_rand()](http://php.net/manual/fr/function.array-rand.php) : pour retourner une clé aléatoire d'un tableau.
+* [array_slice()](http://php.net/manual/fr/function.array-slice.php) : pour retourner une partie de tableau.
+* [array_filter()](http://php.net/manual/fr/function.array-filter.php) : pour récupérer seulement certains résultats d'un tableau (pour la recherche).
+
+Lisez bien la documentation de ces fonctions **et surtout la partie exemple de chaque fonction**.
 
 ## Les données
 
