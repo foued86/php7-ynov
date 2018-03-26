@@ -1,5 +1,9 @@
 <?php
 
+// La session permet de garder en mémoire des informations
+// sur la session de l'utilisateur qui visite votre site
+// la session est accessible dans tout les scripts de votre serveur
+
 // Je dois démarrer la session
 // avant de pouvoir accéder à $_SESSION
 session_start();
