@@ -9,9 +9,15 @@ $captain = [
 
 class Captain
 {
-    public $age;
-    public $name;
+    protected $age;
+    protected $name;
     protected $isDead = false;
+    
+    public function __construct(string $name, int $age = 0)
+    {
+        $this->age = $age;
+        $this->name = $name;
+    }
     
     public function death()
     {
@@ -33,13 +39,9 @@ class Captain
     }
 }
 
-$jaquesSpareau = new Captain();
-$jaquesSpareau->age = 23;
-$jaquesSpareau->name = "Jaques Sparreau";
+$jaquesSpareau = new Captain("Jaques Sparreau", 23);
 
 $barbarosa = new Captain();
-$barbarosa->age = 42;
-$barbarosa->name = "Barbarosa";
 $barbarosa->death();
 
 ?>
