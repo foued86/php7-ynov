@@ -19,6 +19,11 @@ class Captain
         $this->name = $name;
     }
     
+    public function __toString()
+    {
+        return "Le capitaine s'appelle : ".$this->name;
+    }
+    
     public function death()
     {
         $this->isDead = true;
@@ -41,7 +46,7 @@ class Captain
 
 $jaquesSpareau = new Captain("Jaques Sparreau", 23);
 
-$barbarosa = new Captain();
+$barbarosa = new Captain("Barbarosa", 42);
 $barbarosa->death();
 
 ?>
@@ -62,8 +67,9 @@ $barbarosa->death();
     <main role="main">
         <div class="jumbotron">
             <div class="container">
-                <h1 class="display-3">Jumbotron</h1>
+                <h1 class="display-3">Le capitaine en objet</h1>
                 <pre>
+                    <?php print $jaquesSpareau; ?>
                     <?php $jaquesSpareau->printNameUpper(); ?>
                     <?php var_dump($jaquesSpareau); ?>
                     <?php var_dump($barbarosa); ?>
