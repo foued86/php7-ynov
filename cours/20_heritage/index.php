@@ -1,5 +1,7 @@
 <?php
 
+// pour que les classes soient disponibles, il faut require le fichier qui la contient
+// ou passer par l'autoload (voir 21_composer)
 require_once(__DIR__.'/src/Animal/Animal.php');
 require_once(__DIR__.'/src/Animal/Cat.php');
 require_once(__DIR__.'/src/Animal/Dog.php');

@@ -26,12 +26,35 @@ Support de cours et challenges pour le cours PHP7 pour les B1 d'YNOV.
 
 ### Troisième jour : sites web simples avec PHP
 
+* [15 - Inclusion de fichiers](./cours/15_inclusions_de_fichiers.php)
+* [16 - PHP dans des sites HTML](./cours/16_http)
+    * [1 - Hello World](./cours/01_helloworld)
+    * [2 - Insultron en HTML](./cours/02_insultron)
+    * [3 - Les paramêtres $_GET](./cours/03_get)
+    * [4 - Liens entre plusieurs fichiers PHP](./cours/04_navigation)
+    * [5 - Les formulaires $_POST](./cours/05_formulaire)
+    * [6 - Les redirections avec header()](./cours/06_formulaire)
+* [17 - Les sessions](./cours/17_sessions.php)
+    
+### Quatrième jour : les bases de données
+
+* [18 - Les bases de données](./cours/18_bdd)
+
+### Cinquième jour : la programmation orientée objet
+
+* [19 - La POO](./cours/19_poo)
+* [20 - L'héritage](./cours/20_heritage)
+* [21 - Composer](./cours/21_composer)
+
 ## Challenges
 
 Chaque challenge doit être envoyé sur github dans votre workspace, dans un dossier spécifique (ex : le dossier `challenges/01_la_fin_du_capitaine` contiendra votre script avec la solution `la_fin_du_capitaine.php`).
 
-### Premier jour
-
 * 01 - [la fin du capitaine](./challenges/01_la_fin_du_capitaine/objectif.md)
 * 02 - [calculette simple](./challenges/02_calculette_simple/objectif.md)
 * 03 - [l'imagination n'a pas de limite](./challenges/03_imagination/objectif.md)
+* 04 - [insultron](./challenges/04_insultron)
+* 05 - [repartition](./challenges/05_repartitron)
+* 06 - [alphaseries](./challenges/06_alphaseries/README.md)
+* 07 - [liste de course](./challenges/07_liste_de_course/objectif.md)
+* 08 - [l'imagination n'a pas de limite 2.0](./challenges/08_imagination_2/objectif.md)
