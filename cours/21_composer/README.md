@@ -73,11 +73,14 @@ Pour faire marcher l'autoload dans votre projet, il faut ajouter à votre compos
 },
 ```
 
+Il faut aussi relancer un `composer install` pour que le changement soit pris en compte ou un `composer dump-autoload`.
+
 Pour que les classes de votre projet soient correctement autoloadée, il faut aussi rajouter en haut de votre script php :
 
 ```php
 require 'vendor/autoload.php';
 ```
+
 
 Et que votre arborescence respecte ces conditions :
 
