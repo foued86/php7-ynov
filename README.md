@@ -28,12 +28,12 @@ Support de cours et challenges pour le cours PHP7 pour les B1 d'YNOV.
 
 * [15 - Inclusion de fichiers](./cours/15_inclusions_de_fichiers.php)
 * [16 - PHP dans des sites HTML](./cours/16_http)
-    * [1 - Hello World](./cours/01_helloworld)
-    * [2 - Insultron en HTML](./cours/02_insultron)
-    * [3 - Les paramêtres $_GET](./cours/03_get)
-    * [4 - Liens entre plusieurs fichiers PHP](./cours/04_navigation)
-    * [5 - Les formulaires $_POST](./cours/05_formulaire)
-    * [6 - Les redirections avec header()](./cours/06_formulaire)
+    * [1 - Hello World](./cours/16_http/01_hello_world)
+    * [2 - Insultron en HTML](./cours/16_http/02_insultron)
+    * [3 - Les paramêtres $_GET](./cours/16_http/03_get)
+    * [4 - Liens entre plusieurs fichiers PHP](./cours/16_http/04_navigation)
+    * [5 - Les formulaires $_POST](./cours/16_http/05_formulaire)
+    * [6 - Les redirections avec header()](./cours/16_http/06_header)
 * [17 - Les sessions](./cours/17_sessions.php)
     
 ### Quatrième jour : les bases de données
