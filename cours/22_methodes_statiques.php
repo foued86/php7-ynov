@@ -1,5 +1,11 @@
 <?php
 
+/**
+ * Contrairement à une méthode classique, une méthode statique n'a pas besoin
+ * d'une instance de classe pour fonctionner, mais s'apelle sur la classe elle même
+ * En contrepartie elle ne peut pas utiliser des propriétés ou des méthodes d'instance
+ * et ne peut donc pas utiliser le mot clé $this. On utilise self:: à la place.
+ */
 class PDOFactory
 {
 	protected static $user = 'root';
@@ -20,5 +26,5 @@ class PDOFactory
 	}
 }
 
-$pdo = PDOFactory::createPDO();
-$pdoFruits = PDOFactory::createPDODatabase('politic');
+$pdoDefault = PDOFactory::createPDO();
+$pdoPolitic = PDOFactory::createPDODatabase('politic');
