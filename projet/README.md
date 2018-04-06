@@ -23,7 +23,7 @@ L'idée du projet c'est de pouvoir garder un classement de parties "entre potes"
 
 Si vous voulez aller plus loin, voici quelques idées pour level up votre projet :
 
-* La création de joueur ne peut qu'être faite par un admin, il faut donc un formulaire de connection, utiliser la session et avoir un utilisateur spécial "id_admin=1" en BDD. L'admin peut aussi supprimer des joueurs ou/et des parties.
+* La création de joueur ne peut qu'être faite par un admin, il faut donc un formulaire de connection, utiliser la session et avoir un utilisateur spécial "is_admin=1" en BDD. L'admin peut aussi supprimer des joueurs ou/et des parties.
 * Encore mieux, tout joueur doit être inscrit au site avant de créer une partie.
 * Pouvoir ajouter des commentaires à une partie (dans une table spéciale).
 * Ajouter l'envoi de fichier d'avatar à la création du joueur.
